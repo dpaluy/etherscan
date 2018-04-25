@@ -1,5 +1,11 @@
 # EtherScan API gem
 
+[![Gem Version](https://badge.fury.io/rb/ehterscan.png)](http://badge.fury.io/rb/ehterscan)
+[![Build Status](https://secure.travis-ci.org/dpaluy/ehterscan.png)](http://travis-ci.org/dpaluy/ehterscan)
+[![Code Climate](https://codeclimate.com/github/dpaluy/ehterscan/badges/gpa.svg)](https://codeclimate.com/github/dpaluy/ehterscan)
+[![Dependency Status](https://gemnasium.com/dpaluy/ehterscan.svg)](https://gemnasium.com/dpaluy/ehterscan)
+[![Test Coverage](https://codeclimate.com/github/dpaluy/ehterscan/badges/coverage.svg)](https://codeclimate.com/github/dpaluy/ehterscan/coverage)
+
 Ruby Gem for the EtherScan API https://etherscan.io/apis
 
 ## Installation
