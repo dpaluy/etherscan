@@ -48,7 +48,7 @@ describe Etherscan::Accounts do
       }
     ]
     response = { 'status' => '1', 'message' => 'OK', 'result' => transactions }
-    params = { module: 'account', action: 'txlist', address: address, sort: 'asc' }
+    params = { module: 'account', action: 'txlist', address: address }
     expect(connection_mock).to receive(:get).with(params).and_return(response)
     expected_response = subject.normal_transactions(address)
     expect(expected_response).to eq(response['result'])
