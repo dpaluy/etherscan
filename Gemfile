@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'faraday'
+# gem 'faraday', '~> 0.15'
 
 group :development do
   gem 'json', '~> 2.1'

@@ -112,7 +112,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.0)
-  faraday
   json (~> 2.1)
   juwelier (~> 2.1)
   pry-byebug
