@@ -1,6 +1,7 @@
 require_relative 'etherscan/config'
 require_relative 'etherscan/exceptions'
 require_relative 'etherscan/client'
+require_relative 'etherscan/accounts'
 require_relative 'etherscan/tokens'
 require_relative 'etherscan/engine' if defined?(Rails)
 

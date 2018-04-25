@@ -17,12 +17,5 @@ module Etherscan
       }
       get(params)
     end
-
-    private
-
-    def get(params)
-      response = connection.get(params)
-      response['result']
-    end
   end
 end
