@@ -14,7 +14,7 @@ require 'rake'
 require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = 'etherscan-api'
+  gem.name = 'etherscan_api'
   gem.homepage = 'http://github.com/dpaluy/etherscan'
   gem.license = 'MIT'
   gem.summary = %Q{Ruby Gem for the Etherscan API https://etherscan.io/apis }

@@ -11,7 +11,7 @@ Ruby Gem for the EtherScan API https://etherscan.io/apis
 
 Add this line to your application's Gemfile:
 
-`gem 'etherscan'`
+`gem 'etherscan_api', require: 'etherscan'`
 
 And then execute:
 
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself using:
 
-`$ gem install etherscan`
+`$ gem install etherscan_api`
 
 ## Usage
 
