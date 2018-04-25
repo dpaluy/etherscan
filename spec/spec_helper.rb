@@ -1,20 +1,12 @@
-require 'codeclimate-test-reporter'
-require 'simplecov'
-require 'coveralls'
-
 require 'webmock/rspec'
 
 if ENV['COVERAGE']
-  WebMock.disable_net_connect!(allow: 'codeclimate.com')
-
-  Coveralls.wear!
+  require 'simplecov'
   SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
     SimpleCov::Formatter::HTMLFormatter,
     Coveralls::SimpleCov::Formatter
   ]
-
-  #SimpleCov.start
-  CodeClimate::TestReporter.start
+  SimpleCov.start
 end
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))

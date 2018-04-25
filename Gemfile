@@ -12,6 +12,4 @@ group :development do
   gem 'simplecov', '~> 0.16'
   gem 'pry-byebug'
   gem 'webmock'
-  gem 'codeclimate-test-reporter', require: false
-  gem 'coveralls_reborn', '~> 0.11', require: false
 end

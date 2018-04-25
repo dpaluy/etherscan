@@ -14,13 +14,13 @@ require 'rake'
 require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "etherscan"
-  gem.homepage = "http://github.com/dpaluy/etherscan"
-  gem.license = "MIT"
+  gem.name = 'etherscan'
+  gem.homepage = 'http://github.com/dpaluy/etherscan'
+  gem.license = 'MIT'
   gem.summary = %Q{Ruby Gem for the Etherscan API https://etherscan.io/apis }
   gem.description = %Q{This Gem allows you to send Etherscan get requests using native Ruby}
-  gem.email = "dpaluy@gmail.com"
-  gem.authors = ["David Paluy"]
+  gem.email = 'dpaluy@gmail.com'
+  gem.authors = ['David Paluy']
   # dependencies defined in Gemfile
 end
 Juwelier::RubygemsDotOrgTasks.new
@@ -38,11 +38,11 @@ task :simplecov do
   Rake::Task['spec'].execute
 end
 
-task :default => :spec
+task default: :spec
 
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
+  version = File.exist?('VERSION') ? File.read('VERSION') : ''
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "etherscan #{version}"
