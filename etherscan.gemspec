@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "etherscan.gemspec",
     "lib/etherscan.rb",
     "lib/etherscan/accounts.rb",
     "lib/etherscan/api.rb",
