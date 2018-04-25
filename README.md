@@ -1,7 +1,7 @@
 # EtherScan API gem
 
 [![Gem Version](https://badge.fury.io/rb/ehterscan.png)](http://badge.fury.io/rb/ehterscan)
-[![Build Status](https://secure.travis-ci.org/dpaluy/ehterscan.png)](http://travis-ci.org/dpaluy/ehterscan)
+[![Build Status](https://travis-ci.org/dpaluy/etherscan.svg?branch=master)](https://travis-ci.org/dpaluy/etherscan)
 [![Maintainability](https://api.codeclimate.com/v1/badges/75848a6693e61972e5f3/maintainability)](https://codeclimate.com/github/dpaluy/etherscan/maintainability)
 [![Dependency Status](https://gemnasium.com/badges/github.com/dpaluy/etherscan.svg)](https://gemnasium.com/github.com/dpaluy/etherscan)
 
