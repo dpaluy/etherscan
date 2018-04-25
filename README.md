@@ -18,6 +18,8 @@ Or install it yourself using:
 
 ## Usage
 
+Get your api key: https://etherscan.io/myapikey
+
 ```
 # config/initializers/etherscan.rb
 EtherScan.configure do |config|
@@ -25,6 +27,18 @@ EtherScan.configure do |config|
 end
 ```
 
+```
+etherscan = Etherscan::Tokens.new
+
+# Get ERC20-Token TotalSupply by ContractAddress
+contract_address = '0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c'
+etherscan.total_supply(contract_address)
+
+# Get ERC20-Token Account Balance for TokenContractAddress
+contract_address = '0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c'
+address = '0xb36efd48c9912bd9fd58b67b65f7438f6364a256'
+etherscan.balance(address, contract_address)
+```
 
 == Contributing to etherscan
 
