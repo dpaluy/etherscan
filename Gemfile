@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# gem 'faraday', '~> 0.15'
+gem 'faraday'
 
 group :development do
   gem 'json', '~> 2.1'
@@ -8,7 +8,7 @@ group :development do
   gem 'shoulda', '>= 0'
   gem 'rdoc', '~> 6.0.3'
   gem 'bundler', '~> 1.0'
-  gem 'juwelier', '~> 2.1'
+  gem 'juwelier', '~> 2.4'
   gem 'simplecov', '~> 0.16'
   gem 'pry-byebug'
   gem 'webmock'
