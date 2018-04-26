@@ -27,7 +27,7 @@ Get your api key: https://etherscan.io/myapikey
 
 ```
 # config/initializers/etherscan.rb
-EtherScan.configure do |config|
+Etherscan.configure do |config|
   config.key = 'my_api_key'
 end
 ```
