@@ -1,4 +1,5 @@
 require 'faraday'
+require 'json'
 
 module Etherscan
   class Client
@@ -22,13 +23,13 @@ module Etherscan
     def get(params = {})
       endpoint = 'api'
       merged_params = params.merge({apikey: key})
-      response = conn.get(url) do |req|
+      response = conn.get(endpoint) do |req|
         req.headers = headers
         req.params  = merged_params
       end
       fail Etherscan::Exception, response if raise_exceptions? && response.status != 200
 
-      response
+      JSON(response.body)
     end
 
     def conn
